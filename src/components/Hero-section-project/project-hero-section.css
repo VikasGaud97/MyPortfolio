@@ -1,0 +1,44 @@
+.hero-img {
+    width: 100%;
+    background-color:rgba(24, 23, 23, 0.637);
+    height: 60vh;
+    position: relative;
+}
+.hero-img::before {
+    content: "";
+    background: url("C:\Users\abc\Desktop\react\portfolio\public\images\bg_project.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.hero-img h1 {
+    font-size: 2.4rem;
+}
+.hero-img p {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+@media screen and (max-width:640px){
+    .hero-img h1 {
+        font-size: 2rem;
+    }
+    .hero-img p {
+        margin-top: 10px;
+        font-size: 1.4rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+}

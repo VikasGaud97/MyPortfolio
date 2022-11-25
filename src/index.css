@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;1,200;1,600&family=Fjalla+One&family=Inter&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.925);
+}
+ul {
+  
+list-style-type: none;
+
+}
+h1,h4.p,a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  color:rgb(255, 255, 255) ;
+  border:1px solid white;
+  font-weight: 600;
+  transition-duration: 1s;
+  cursor: pointer;
+ 
+}
+.btn-light {
+  background: transparent;
+  color: white;
+}
+.btn:hover {
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease;
+  border:1px solid aqua;
+
+}
+.btn-light:hover {
+  background-color:aqua;
+  transition: 0.3s ease;
+  color: rgb(2, 2, 2);
+  border:1px solid aqua;
+}
