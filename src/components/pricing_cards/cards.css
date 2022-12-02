@@ -16,8 +16,8 @@
     height: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));  
+    gap: 30px;
     /* background-color: #fff; */
     text-align: center;
    
@@ -60,9 +60,4 @@
     font-weight: 600;
     padding: 1rem 0;
 }
-@media screen and (max-width:740px){
-    .card-container {
-       display: grid;
-       grid-template-columns: repeat(auto-fit,minmax(200px,1fr));  
-    }
-}
+

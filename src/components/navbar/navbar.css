@@ -36,7 +36,7 @@
 .header h1{
     margin-left: 2rem;
 }
-@media screen and (max-width:1040px) {
+@media screen and (max-width:740px) {
     .nav-menu {
         flex-direction: column;
         justify-content: center;
